@@ -1,0 +1,7 @@
+{
+  "generator-react-webpack": {
+    "appName": "evidationHealth",
+    "style": "sass",
+    "postcss": false
+  }
+}
