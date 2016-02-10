@@ -1,0 +1,166 @@
+.form {
+  height: 600px;
+  width: 800px;
+  margin-right: 50%;
+  margin-left: 28%;
+  background-color: #FFFFFF;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: sans-serif;
+  h1 {
+    color: #426f6f;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 30px;
+    font-weight: normal;
+  }
+  p {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  form {
+    margin-left: 25px;
+    .editor-cell {
+      float:left;
+      width:300px;
+      vertical-align:top;
+      label {
+        margin: 0 0 15px 10px;
+        color: #426f6f;
+      }
+      .last {
+        margin-left: 80px;
+      }
+      input {
+        font-size:20px;
+        padding:10px 2px 10px 15px;
+        border: none;
+        width: 330px;
+        height: 40px;
+        margin:7px 0 20px 0;
+        color:#000000;
+        float:left;
+        background-color: #fafafa;
+        border-radius: 6px;
+        box-shadow: 0 0 5px 0.5px rgba(0,0,0,.35);
+      }
+      input#firstName {
+        margin-left: 10px;
+      }
+      input#lastName {
+        margin-left: 80px;
+      }
+    }
+    .form-row {
+      width:100%;
+      display:block;
+      margin-bottom:2em;
+      overflow:auto;
+      .triangle {
+        font-size:12px;
+        padding:10px 2px 10px 15px;
+        border: none;
+        width: 75px;
+        height: 60px;
+        margin:50px 0 20px 10px;
+        color:#000000;
+        float:left;
+        background-color: #fafafa;
+        border-radius: 6px;
+        box-shadow: 0 0 5px 0.5px rgba(0,0,0,.35);
+      }
+      .final {
+        font-size:18px;
+        padding:10px 2px 10px 15px;
+        border: none;
+        width: 77%;
+        height: 60px;
+        margin:50px 0 20px 40px;
+        color:#000000;
+        float:left;
+        background-color: #fafafa;
+        border-radius: 6px;
+        box-shadow: 0 0 5px 0.5px rgba(0,0,0,.35);
+      }
+      label {
+        color: #426f6f;
+        margin-left: 10px;
+      }
+      input {
+        margin:0;
+        font-size: 20px;
+        padding: 10px 2px 10px 15px;
+        border: none;
+        width: 700px;
+        height: 40px;
+        margin:7px 0 20px 10px;
+        float:left;
+        background-color: #fafafa;
+        border-radius: 6px;
+        box-shadow: 0 0 5px 0.5px rgba(0,0,0,.35);
+      }
+    }
+    .radial {
+      margin-left: 5px;
+      display: inline-block;
+      label {
+        margin-left: 10px;
+        margin-bottom: 40px;
+        font-size: 18px;
+      }
+      #checkBox {
+        -moz-appearance:none;
+        -webkit-appearance:none;
+        appearance:none;
+        width:30px;
+        height: 30px;;
+        border:5px solid #FFFFFF;
+        background:rgba(0, 0, 0, 0.05);;
+        border-radius:25%;
+        box-shadow: 0 0 5px 0.5px rgba(0,0,0,.35);
+        margin-bottom: -8px;
+      }
+      #checkBox:checked {
+        background:#426f6f;;
+      }
+    }
+  }
+}
+
+
+@media only screen
+  and(min-width: 320px)
+  and(max-width: 480px){
+  .form {
+    margin-left: -11%;
+    h1 {
+      margin-left: 5%;
+      margin-right: 47%
+    }
+  }
+}
+
+
+@media only screen
+  and(min-width: 768px)
+  and(max-width: 1024px){
+    .form {
+      margin-left:-1%
+    }
+  }
+
+@media only screen
+  and(min-width: 800px)
+  and(max-width: 1280px) {
+    .form {
+      margin-left: 17%;
+    }
+  }
+
+@media only screen
+  and(min-width: 900px)
+  and(max-width: 1440px) {
+    .form {
+      margin-left: 22%;
+    }
+  }
